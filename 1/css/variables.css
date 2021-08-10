@@ -1,0 +1,31 @@
+/*Aquí encontraras las variables del sistema de diseño*/
+
+
+
+
+:root {
+
+
+	/* ================ COLORES*/
+	--white:#fafafa;
+	--black:#101518;
+	--primary-color:green;
+
+	/* ================ Tipografías*/
+
+	--h1:30px;
+	--h2:20px;
+	--h3:16px;
+	--p:16px;
+
+	/* ================ Especiado*/
+
+	--space-1:8px;
+	--space-2:16px;
+	--space-3:24px;
+
+	--radius:3px;
+
+};
+
+

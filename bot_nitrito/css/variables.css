@@ -1,0 +1,37 @@
+/*Aquí encontraras las variables del sistema de diseño*/
+
+
+
+
+:root {
+
+
+	/* ================ Colores*/
+	--white:#fafafa;
+	--black:#101518;
+	--blue-primary-color:#18345F;
+	--blue-secundary-color:rgba(43, 95, 153, 0.4);
+
+	/* ================ Tipografías*/
+
+	--h1:30px;
+	--h2:20px;
+	--h3:16px;
+	--button: 18px;
+	--pb: 18px;
+	--p:16px;
+
+	/* ================ Especiado*/
+
+	--space-1:8px;
+	--space-2:16px;
+	--space-3:24px;
+
+	/* =============== Radius*/
+
+	--radius:3px;
+	--radius-button:10px;
+
+}
+
+

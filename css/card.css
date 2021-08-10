@@ -1,0 +1,119 @@
+@import "v5_variables.css";
+
+*{
+	margin:0px;
+	padding:0px;
+	/*text-align:center;*/
+	box-sizing:border-box;
+	font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+html, body{
+	width:100%;
+	height:100%;
+	/*background: #F6F6F6;*/
+	background:#25396C;
+}
+
+header{
+	background:#18345F;
+    color: #FFFFFF;
+    width:100%;
+    height: 50px;
+	min-height:80px;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-start;
+	flex-wrap:wrap;
+  	position:fixed;
+}
+
+header img{
+	max-width: 200%;
+	position: relative;
+}
+header h1{
+	margin-top:30px;
+	font-size:16px;
+	display:inline-block;
+}
+#logo{
+	width: 10%;
+	float: left;
+	margin: auto;
+	padding-top: 7px;
+	padding-left: 7px;
+}
+nav{
+	float: right;
+	margin: 15px 250px 15px 15px;
+}
+section{
+	width:100%;
+	height:auto;
+    background: #F6F6F6;
+	z-index:1;
+	font-size:14px;
+	padding:20px 5px 30px 5px;
+}
+#seccion_primera{
+	/*background-image: url('../img/big-bang_quimica.png');*/
+	/*background-image: url('../img/big-bang.jpg');*/
+	/*background-image: url('../img/big-bang_quimica_portada_1.png');*/
+	background-image: url('../img/big-bang_quimica_portada_3.png');
+}
+/*#seccion_primera img{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}*/
+#bienvenida{
+	text-align:center;
+	font-size: var(--inicio);
+	padding: 190px 100px 0px 100px;
+	color: var(--white);
+	justify-items: center;
+	text-shadow: 0 0 0.4em #87F, 0 0 0.6em #87F, 0 0 0.2em #87F;
+}
+#bienvenida img{
+	justify-items: center;
+	align-content: center;
+	position: relative;
+}
+
+img{
+	width: 100%;
+	border-radius: 4px 4px 0 0;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	background: green;
+	padding: 8px;
+	border-radius: 10px;
+	transition: all 0.3s;
+}
+a:hover{
+	background: rgba(37, 91, 172, 0.973);
+}
+
+.cuerpo-tarjeta{
+	font-size: 12px;
+	width: 240px;
+	border: solid grey 1px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	border-radius: 5px;
+	margin: 50px;
+}
+
+.descripcion{
+	padding: 12px;
+	margin-bottom: 10px;
+
+}

@@ -1,0 +1,65 @@
+	/*Aquí encontraras las variables del sistema de diseño*/
+
+/* CSS general para todos los dispositivos */
+
+*#dm *.dmBody div.u_1407161573{
+
+}
+
+
+:root {
+
+	/* ================ Tipografías*/
+
+	--h1:30px;
+	--h2:20px;
+	--h3:18px;
+	--h4:15px;
+	--p:16px;
+	--li:18px;
+	--title:28px;
+	--inicio: 40px;
+
+	/* ================ COLORES*/
+	--white:#fafafa;
+	--black:#101518;
+	--blue-primary-color:#18345F;
+	--blue-secundary-color:rgba(43, 95, 153, 0.4);
+	--blue-dark: #13244E;
+	--green-ok: #00B060;
+
+
+	/* ================ Espaciado*/
+
+	--space-1:8px;
+	--space-2:16px;
+	--space-3:24px;
+	--space-4:30px;
+	--space-5:34px;
+	--space-6:40px;
+	--space-7:50px;
+
+	/*================ Colores de alertas*/
+
+	--red:#FA6766;
+	--green:#66D9A3;
+	--blue-t-color:#2B5F99;
+
+
+	/*================ Colores de alertas*/
+
+	--box-shadow-red:0px 0px 5px red ;
+	--box-shadow-green:0px 0px 5px green ;
+	--box-shadow-blue:0px 0px 5px #2B5F99;
+
+	/*================ Radios*/
+
+	--radius:3px;
+	--radius-button:10px;
+	--radius-img:  10px 10px 0 0;
+
+	/*================ Shadows*/
+	--shadow: 0px 0px 20px #D5D8DC ;
+
+
+	}

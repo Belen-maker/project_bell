@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+	<meta charset="utf-8">
+	<!-- Behavioral Meta Data -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Portal de las Ciencias Experimentales</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/v6_estilos_intera.css">
+</head>
+	<body>
+	<header id="">
+		<div id="logo">
+			<img src="img/logo_jvm.jpg">
+		</div>
+		<!--EFECTO MENU HAMBURGUESA-->
+		<nav class="nav">
+		<div class="nav_container">
+		<h1 class="nav_logo"></h1>
+		<label for="home" class="nav_label">
+			<img src="img/ico_menu.svg" alt="home" class="nav_img">
+		</label>
+		<input type="checkbox" name="" id="home" class="nav_input">
+		<div class="nav_home">
+			<a href="index.html" class="nav_item">Inicio</a>
+			<a href="blog.html" class="nav_item">Blog</a>
+            <a href="descargas.html" class="nav_item">Descargas</a>
+            <a href="contacto.html" class="nav_item">Contacto</a>
+		</div>
+		</div>
+</nav>
+	</header>
+				
+		<br><br><br><br>
+		<section>
+			<article>
+<form action="enviarmail.php" method="post">
+	<div class="formulario_enviar">
+    <div class="titulo-formulario">
+        <h3 access="false" id="control-7411934">Solicitud de contenidos multimedia</h3>
+    </div>
+    <div id="campos-requeridos">
+    <p>*Campos requeridos</p>
+    </div>
+    <div class="formbuilder-text form-group field-text-1">
+        <label for="text-1" class="formbuilder-text-label">*Nombre Completo:</label><br>
+        <input type="text" placeholder="Ejemplo: Jovita Legorreta" class="form-control" name="name" access="false" id="text-1" required/>
+     </div>
+    <div class="formbuilder-text form-group field-text-2">
+        <label for="text-2" class="formbuilder-text-label">*Correo electrónico:</label><br>
+        <input type="email" placeholder="Ejemplo: jovita@gmail.com" class="form-control" name="mail" access="false" id="text-2" required/>
+    </div>
+    <div class="formbuilder-text form-group field-text-1626484872530">
+        <label for="text-1626484872530" class="formbuilder-text-label">Teléfono:</label><br>
+        <input type="tel" placeholder="Ejemplo: 5580405090" class="form-control" name="phone" access="false" id="text-1626484872530" required/>
+    </div>
+    <div class="formbuilder-select form-group field-select-1626484960096">
+    	<label for="select-1626484960096" class="formbuilder-select-label">*¿En qué asignatura está interesado?</label><br>
+        <select class="form-control" name="message1" id="select-1626484960096" required/>
+            <option selected="true" id="select-option" required/>🌀 Selecciona una opción</option>
+            <option value="option-1" id="select-1626484960096-1">🪐🧲💡 FÍSICA</option>
+            <option value="option-2" id="select-1626484960096-2">⚗️🧪🧬 QUÍMICA</option>
+        </select>
+    </div>
+    <div class="formbuilder-select form-group field-select-1626484960096">
+    	<label for="select-1626484960096" class="formbuilder-select-label">*¿Con qué rol te identificas?</label><br>
+        <select class="form-control" name="message1" id="select-1626484960096" required/>
+            <option selected="true" id="select-option" required/>🌀 Selecciona una opción</option>
+            <option value="option-1" id="select-1626484960096-1"> 📔 PROFESOR</option>
+            <option value="option-2" id="select-1626484960096-2">📖 ESTUDIANTE</option>
+            <option value="option-2" id="select-1626484960096-2">📚 PADRE DE FAMILIA O TUTOR</option>
+        </select>
+    </div>
+    <div class="formbuilder-textarea form-group field-textarea-1626485274522">
+        <label for="textarea-1626485274522" class="formbuilder-textarea-label">Si desea un tema en específico, favor de mencionarlo:
+            <br>
+        </label>
+        <textarea type="textarea" placeholder="Aquí escriba el tema que requiera estudiar..." class="form-control" name="message2" access="false" maxlength="100" rows="5" id="textarea-1626485274522"></textarea>
+    </div>
+     <div class="formbuilder-checkbox-group form-group field-checkbox-group">
+        <div class="checkbox-group">
+        	<a id="aviso" href="#">📒 Leer los términos de privacidad y protección de la información.</a><br>
+            <div class="formbuilder-checkbox">
+                <input class="terminos-privacidad" name="checkbox-group[]" access="false" id="checkbox-group-0" value="option-1" type="checkbox" checked="checked">
+                <label for="checkbox-group-0">He leído y acepto los términos de privacidad y estoy de acuerdo.</label>
+            </div>
+        </div>
+    </div>
+    <div class="formbuilder-button form-group field-button-1626485202537">
+        <button type="button" class="boton_general3" name="button-1626485202537" access="false" style="primary" id="button-1626485202537">Enviar solicitud</button>
+    </div>
+</div>
+<!-- PARA ENVIAR MENSAJE AL E-MAIL DE GOOGLE-->
+       <input name="dmformsendto" type="hidden" value="ciencias.jaimevalderrama@gmail.com" preserve_css="true" id="1543986987" class=""/>
+       <input class="dmActionInput" type="hidden" name="action" value="/_dm/s/rt/widgets/dmform.submit.jsp" id="1609204232"/>
+       <input name="dmformsubject" type="hidden" value="SOLICITUD DE CONTENIDOS" preserve_css="true" id="1023900519"/>
+       <input type="hidden" name="spreadsheetId" value="1JMHp0Wdzs_n94R6ZrUF2UBCLKCVZfvKVDVc5YQqa1Z8" [object="" object]="" id="1850062881"/>
+       <input type="hidden" name="googleIntegrationUUID" value="c3c815464615404181d154f73999d57e" [object="" object]="" id="1568291225"/>
+       </form>	
+<!--AQUI TERMINA ENVIAR MENSAJE POR GOOGLE-->
+
+<!-- MENSAJE DIRECTO Y CONTACTO -->
+<section id="seccion_contacto">
+ 		    <div id="enlace3">
+ 		   	<h2>CONTACTO</h2><br><br>
+ 		   </div>
+ 		   	<div id="enlace3_texto">
+ 		   	<p>📚 Si deseas adquirir alguno de nuestros materiales interactivos, puedes enviarnos un mensaje directo por WhatsApp.<p>
+ 		   	</div>
+ 		   	<div id="enlace3_texto">
+ 		   			<a id="btn_whats" href="https://api.whatsapp.com/send?phone=525546954122&text=Buenas%20tardes%20ingeniero,%20me%20gustar%C3%ADa%20adquirir%20alguno%20de%20sus%20materiales%20de%20estudio" target="_parent"><button id="boton_whatsapp"> Enviar mensaje por WhatsApp</button></a>
+ 		   	</div>
+</section>
+
+<!--MENSAJES DE EXITO DEL PROCESO-->
+  </div>
+     <div class="dmform-success" style="display:none" preserve_css="true" id="1115059248">
+      Gracias por contactarnos. Le responderemos lo antes posible.
+     </div>
+     <div class="dmform-error" style="display:none" preserve_css="true" id="1828595734">
+      Se ha producido un error al enviar su mensaje. Int&eacute;ntelo m&aacute;s tarde.
+     </div>
+<!--TERMINAN MENSAJES-->
+</article>
+</section>
+
+<!------------SCRIPTS-------------->
+	<script src="main.js"></script>
+<!--------------------------------->
+<footer>
+			<!--CAJAS Y TABLAS-->
+
+		<table id="contacto" >
+			<div id="logo">
+				<img src="img/logo_jvm.jpg" width="200%">
+			</div>
+ 		 <tr>
+  		  <td>
+  		  "Intenta no volverte un hombre de éxito,<br>sino volverte un hombre de valor."<br>
+  		  <!-- Más frases de Einstein
+  		  "Si no lo puedes explicar de forma simple,<br> no lo entiendes suficientemente bien."<br>
+  		  "En medio de la dificultad yace la oportunidad"--><br> 
+  		  Albert Einstein
+  		  </td>
+              <td>
+            <h3>ENLACES</h3><br>
+            <ul>
+                <li id="enlace2">
+                    <a href="index.html">INICIO</a>
+                </li>
+                <li id="enlace2">
+                    <a href="blog.html">BLOG</a>
+                </li>
+            </ul>
+          </td>
+           <td>
+            <h3>INTERACTIVOS</h3><br>
+            <ul>
+                <li id="enlace2">
+                    <a href="">FÍSICA</a>
+                </li>
+                <li id="enlace2">
+                    <a href="">QUÍMICA</a>
+                </li>
+            </ul>
+           </td>
+         </tr>
+        </table>
+        <!-- LEGALES -->
+        <table id="legales" width="30%">
+         <tr>
+          <td>Aviso de privacidad</td>
+          <td>🇲🇽 Hecho en Méxco</td>
+          <td>©JVB.MULTIMEDIA</td>
+          <td>Contenido 2021 </td>
+            </tr>
+        </table>
+</footer>	
+	</body>
+</html>
