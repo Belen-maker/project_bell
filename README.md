@@ -1,0 +1,8 @@
+# project_bell
+
+portal-ciencias
+Instrumentos didácticos
+
+Diagrama de información y Wireframe
+
+https://miro.com/welcomeonboard/YWJRaDkwZkdTU3dYUFRRWjF5NVpWbUNBamNadlFERm8xQTd2aUtmNFM3elpvT3dqMGxkVTRqS3BoZFU0eXVTRXwzMDc0NDU3MzQ3NzM2NDIzMTk3
